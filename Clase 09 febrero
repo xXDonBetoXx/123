@@ -1,0 +1,73 @@
+Valor de funciòn objetivo: 128
+
+Variable   Valor   Costo reducido
+x1         3.2     0
+x2         1.6     0
+
+Fila    Holgura/Superàvit    Precio dual
+2       0                    14
+3       0                    2
+
+Nùmero de iteraciones = 2
+
+Rangos en que las bases no cambian
+
+Rango de coeficientes
+Variable   Coeficiente actual   Incremento permitido    Decremento permitido
+x1         30                   10                      23.333332
+x2         20                   70                      5
+
+Righthand side ranges
+Fila    RHS actual    Incremento permitido      Decremento permitido
+2       8             8                         5.333333
+3       8             16                        4
+
+***AQUÌ VA LA GRÀFICA***
+
+El punto òptimo corresponde a x=3.2, y=1.6 para obtener z=128
+
+En la gràfica se observa que el punto òptimo es (x,y)=(3.2,1.6), en el cual la funciòn objetivo alcanza el valor Z=30x+20y=30(3.2)+20/1.6)=128.
+Entonces se necesita vender 3.2 unidades del producto 1 y 1.6 unidades del producto 2 para obtener la utilidad màxima de 128
+
+El precio dual muestra cuànto puede aumentar el punto òptimo por cada unidad que se aumente a la màquina 1 (restricciones), por lo que se le darà
+priorirdad a la màquina 1, la cual, si se aumenta en una undiad se tiene una ganancia de 14 unidades adicionales. Pasando de 128 a 142
+
+***GRÀFICA CON LAS MODIFICACIONES***
+
+Respuesta Pregunta 1
+Segùn los precios duales para las màquinas 1 y 2, cada hora adicional de la màquina 1 incrementa el ingreso en $14,en comparaciòn con solo $2
+para la màquina 2. Por lo tanto, la màquina 1 debe tener la prioridad.
+
+
+Pregunta 2. Se sugiere incrementar las capacidades de las màquinas 1 y 2 al costo adicional de $10 por hora para cada màquina, ¡es esto
+aconsejable?
+Serìa aconsejable solo incrementar las horas en la màquina 1, ya que èsta por cada hora adicional incrementa el ingreso en $14, por lo que la
+utilidad queda de $4. En el caso de la màquina 2, hay pèrdidas
+Para la màquina 1, el ingreso neto adicional por hora es ($14-$10)=$4, y para la màquina 2 es ($2-$10)=-$8. Por lo tanto, solo la màquina 1 debe
+considerarse para el incremento de capacidad
+
+
+Pregunta 3. Si la capacidad de la màquina se incrementa de 8 a 13 horas, ¡còmo impactarà este incremento al ingreso òptimo?
+El precio dual para la màquina 1 es de $14 y es vàlido en el intervalo (2.67,16)h (intervalo de righthand)
+El incremento propuesto de 13 horas queda comprendido dentro del intervalo de factibilidad
+Por consiguiente, el incremento del ingreso es $14(13-8)=$70, lo que significa que el ingreso total se incrementarà de $128 a $198
+
+
+Pregunta 4. Suponga que la capacidad de la màquina 1 se incrementa a 20 horas, ¡còmo afectarà este incremento al ingreso òptimo?
+El cambio propuesto queda fuera del intervalo de factibilidad. Por lop tanto, solo podemos hacer una conclusiòn inmediatra con respecto a un
+incremento hasta de 16 horas
+Màs allà de eso, se requieren de màs càlculos para hallar la respuesta
+Quedar fuera del intervalo no significa que el problema no tenga soluciòn,sino que la informaciòn disponible no es suficiente para llegar a una 
+conclusiòn completa
+
+
+
+
+
+hola wapo
+
+
+
+
+
+
