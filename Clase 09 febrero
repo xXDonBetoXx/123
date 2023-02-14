@@ -61,10 +61,36 @@ Quedar fuera del intervalo no significa que el problema no tenga soluciòn,sino 
 conclusiòn completa
 
 
+*** 14 de febrero ***
+
+Anàlisis de sensibilidad - Cambios en kois coeficientes de la gfuncion objetivo
+
+Pregunta 1. Suponhga que los ingresos unitarios producidos para los preoductyos 1 y 2 cambian a $35 y $25, respectivamente. ¿Permanecerà igual el
+optimo actual?
+Si, el punto optimo no cambia
+
+Pregunta 2. Suponga que el ingreso unitario del producto 2 se fija a su valor actual c2 $20?
+¿Cual es el interbvalo de optimalidad asociado para el ingreso unitario del producto 1, c1, que mantendra el optimo sin cambio?
+
+PARENTESIS**
+Rango de coeficientes
+Variable   Coeficiente actual   Incremento permitido    Decremento permitido
+x1         30                   10                      23.333332
+x2         20                   70                      5
+Rango del costo permitido para el producto 1. (6.67, 40),
+Rango del costo permitido para el producto 2, (15, 90)
+Dentro de estos intervalos, el punto optimo no va a cambiar x1=3.2, x2=1.6
+CIERRA PATENTESIS**
 
 
 
-hola wapo
+
+
+
+
+
+
+
 
 
 
