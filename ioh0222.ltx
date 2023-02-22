@@ -1,0 +1,56 @@
+max 9x1+5x2+6x3+4x4
+subject to
+6x1+3x2+5x3+2x4<=10
+x3+x4<=1
+-x1+x3<=0
+-x2+x4<=0
+end
+integer x1
+integer x2
+integer x3
+integer x4
+
+max 9x1+5x2+6x3+4x4
+subject to
+6x1+3x2+5x3+2x4<=10
+x3+x4<=1
+-x1+x3<=0
+-x2+x4<=0
+x1<=0
+end
+integer x2
+integer x3
+integer x4
+
+max 9x1+5x2+6x3+4x4
+subject to
+6x1+3x2+5x3+2x4<=10
+x3+x4<=1
+-x1+x3<=0
+-x2+x4<=0
+x1>=1
+end
+integer x2
+integer x3
+integer x4
+
+Max 4x1-2x2+7x3-x4
+subject to
+x1+5x3<=10
+x1+x2-x3<=1
+6x1-5x2<=0
+-x1+2x3-2x4<=3
+end
+gin x1
+gin x2
+gin x3
+
+max x1+1.8x2+1.6x3+0.8x4+1.4x5
+subject to
+6x1+12x2+10x3+4x4+8x5<=20
+end
+integer x1
+integer x2
+integer x3
+integer x4
+integer x5
