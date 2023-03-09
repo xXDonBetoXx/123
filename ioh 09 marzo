@@ -1,0 +1,24 @@
+Optimizacion no restringida de varias variables
+
+Ahora se considera el rblema de maximizar una funciòn còncava f(x1,x2,...,xn) de variables mùltiples, x=(x1,x2,...,xn) en la cual no existen restricciones obre los valores favtibnles.
+Suponga que la condicion necesaria y suficiente para la optimalidad, dad por el sistema de ecuaciones que se obtiene al establecer las respectivas derivadas parciales iguales
+a cero, no se pude resolver de forma analìtica, por lo que debe emplearse un mètodo de bùsqueda numèrico
+Uno dde los mètodos es el procedimiento de bùsqueda del gradiente, el cual identifica y utiliza la direcciòn del movimiento desde la soluciòn de prueba actual, que maximiza
+la tasa a la cual se incrementa f(x1,x2,...,xn)
+Como se supone que la funcipòn objeivo f(x1,x2,...,xn) es diferenciable, entonces tiene gradiente, el cual se denota por (triàngulo inverso)f(x1,x2,...,xn) en cada punto
+(x1,x2,...,xn)
+En particular, el gradiente en un punto especìfico (x1,x2,...,xn)=(x'1,x'2,...,x'n) es el vector cuyos elementos son las derivadas parciales respectivas evaluadas en (x'1,x'2,...,x'n)
+El significado del gradiente es el cambio infinitesimal de x1,...,xn que maximiza la tasa que f(x1,...,xn) se maximiza si los cambios infinitesimales de x1,...,xn se hacen
+en la direcciòn del gradiente
+Como el objetivo es encontrar la soluciòn factible que maximice la funciòn, parece adecuado moverse lo màs posible en la direcciòn del gradiente.
+
+  Alhoritmo del procedimiento de bùsqueda del gradiente
+Paso inicial. Seleccionar epsilon y cualquier soluciòn de prueba inicial x'1,...,x'n
+t* = òptimo de la funciòn de una variable
+
+funciones no lineales (tarea)
+
+
+
+
+
